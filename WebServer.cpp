@@ -64,6 +64,7 @@ void setup() {
 }
 
 uint32_t Client_Number = 0;
+// Loop Begin
 void loop() {
   // put your main code here, to run repeatedly:
   
@@ -144,10 +145,10 @@ void loop() {
   delay(1);
   Serial.println("Client disconnected");
   Serial.println("");  
-}
+} // Loop END
 
 
-// Next ELSE is a Turman code, thanks to him to help me on this long way to get a better codes!!!
+// Next ELSE is a Turman code, thanks to him to help me on this long way to make a better codes!!!
 #else
 
 
